@@ -1,0 +1,25 @@
+body {
+        background: darkslategrey;
+}
+
+.box {
+        width: 15%;
+        min-width: 7em;
+        border-style: solid;
+        display: inline-block;
+        text-align: center;
+        height: 15%;
+        min-height: 7em;
+        margin: 1%;
+        background: aliceblue;
+}
+
+.header {
+        background: lightgrey;
+        margin: 0 20%;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 120%;
+        border-radius: 14px;
+        border-style: double;
+}

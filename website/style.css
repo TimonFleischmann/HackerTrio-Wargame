@@ -1,0 +1,68 @@
+body {
+    display:block;
+  }
+
+.chatbox{
+    display:inline-block;
+    background: #222;
+    min-height:40em;
+    width:45%;
+    border: 3px black solid;
+}
+.chat {
+    display:block;
+    background: #9ecef5;
+    min-height:45em;
+    padding: 2em;
+  }
+
+.msg {
+    border-radius: 3em;
+    background: #b4bda7;
+    width:auto;
+    display:inline-block; 
+    padding: 1em;
+  }
+.self{
+    text-align: right;
+}
+.self .msg{
+    background: lightgreen;;
+}
+.sendbox{
+    background-color: green;
+    min-height:3em;
+}
+form{
+    display:inline;
+
+}
+.input{
+    margin:1em;
+    width:75%;
+}
+.notes{
+    display:inline-block;
+    vertical-align: top;
+    width:50%;
+    background-color:lightpink;
+    font-size: 1.2em;
+    padding:0.3em;
+}
+.hint{
+    width:100%;
+    border-bottom: 2px solid black;
+    display:inline-block;
+}
+h1{
+    text-align:center;
+}
+.key{
+    text-align:center;
+    display:inline-block;
+    background-color: gray;
+    width:100%;
+}
+.response{
+    display:inline-block;
+}
